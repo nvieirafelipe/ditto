@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55BB835F1679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
+		55BB83611679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
+		55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83621679253F00E45296 /* CoreGraphics.framework */; };
+		55BB83691679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83671679253F00E45296 /* InfoPlist.strings */; };
+		55BB836B1679253F00E45296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836A1679253F00E45296 /* main.m */; };
+		55BB836F1679253F00E45296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836E1679253F00E45296 /* AppDelegate.m */; };
+		55BB83711679253F00E45296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83701679253F00E45296 /* Default.png */; };
+		55BB83731679253F00E45296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83721679253F00E45296 /* Default@2x.png */; };
+		55BB83751679253F00E45296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83741679253F00E45296 /* Default-568h@2x.png */; };
+		55BB83781679253F00E45296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */; };
+		55BB837B1679253F00E45296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */; };
+		55BB837E1679253F00E45296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB837D1679253F00E45296 /* ViewController.m */; };
+		55BB83861679253F00E45296 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83851679253F00E45296 /* SenTestingKit.framework */; };
+		55BB83871679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
+		55BB83881679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
+		55BB83901679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB838E1679253F00E45296 /* InfoPlist.strings */; };
+		55BB83931679253F00E45296 /* DittoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB83921679253F00E45296 /* DittoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55BB83891679253F00E45296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55BB83511679253F00E45296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55BB83591679253F00E45296;
+			remoteInfo = Ditto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55BB835A1679253F00E45296 /* Ditto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BB835E1679253F00E45296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55BB83601679253F00E45296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55BB83621679253F00E45296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55BB83661679253F00E45296 /* Ditto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ditto-Info.plist"; sourceTree = "<group>"; };
+		55BB83681679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55BB836A1679253F00E45296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55BB836C1679253F00E45296 /* Ditto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ditto-Prefix.pch"; sourceTree = "<group>"; };
+		55BB836D1679253F00E45296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55BB836E1679253F00E45296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55BB83701679253F00E45296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		55BB83721679253F00E45296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		55BB83741679253F00E45296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55BB83771679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		55BB837A1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		55BB837C1679253F00E45296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55BB837D1679253F00E45296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55BB83841679253F00E45296 /* DittoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BB83851679253F00E45296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		55BB838D1679253F00E45296 /* DittoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DittoTests-Info.plist"; sourceTree = "<group>"; };
+		55BB838F1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55BB83911679253F00E45296 /* DittoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DittoTests.h; sourceTree = "<group>"; };
+		55BB83921679253F00E45296 /* DittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BB83571679253F00E45296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB835F1679253F00E45296 /* UIKit.framework in Frameworks */,
+				55BB83611679253F00E45296 /* Foundation.framework in Frameworks */,
+				55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BB83801679253F00E45296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB83861679253F00E45296 /* SenTestingKit.framework in Frameworks */,
+				55BB83871679253F00E45296 /* UIKit.framework in Frameworks */,
+				55BB83881679253F00E45296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BB834F1679253F00E45296 = {
+			isa = PBXGroup;
+			children = (
+				55BB83641679253F00E45296 /* Ditto */,
+				55BB838B1679253F00E45296 /* DittoTests */,
+				55BB835D1679253F00E45296 /* Frameworks */,
+				55BB835B1679253F00E45296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BB835B1679253F00E45296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BB835A1679253F00E45296 /* Ditto.app */,
+				55BB83841679253F00E45296 /* DittoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BB835D1679253F00E45296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55BB835E1679253F00E45296 /* UIKit.framework */,
+				55BB83601679253F00E45296 /* Foundation.framework */,
+				55BB83621679253F00E45296 /* CoreGraphics.framework */,
+				55BB83851679253F00E45296 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55BB83641679253F00E45296 /* Ditto */ = {
+			isa = PBXGroup;
+			children = (
+				55BB836D1679253F00E45296 /* AppDelegate.h */,
+				55BB836E1679253F00E45296 /* AppDelegate.m */,
+				55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */,
+				55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */,
+				55BB837C1679253F00E45296 /* ViewController.h */,
+				55BB837D1679253F00E45296 /* ViewController.m */,
+				55BB83651679253F00E45296 /* Supporting Files */,
+			);
+			path = Ditto;
+			sourceTree = "<group>";
+		};
+		55BB83651679253F00E45296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55BB83661679253F00E45296 /* Ditto-Info.plist */,
+				55BB83671679253F00E45296 /* InfoPlist.strings */,
+				55BB836A1679253F00E45296 /* main.m */,
+				55BB836C1679253F00E45296 /* Ditto-Prefix.pch */,
+				55BB83701679253F00E45296 /* Default.png */,
+				55BB83721679253F00E45296 /* Default@2x.png */,
+				55BB83741679253F00E45296 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55BB838B1679253F00E45296 /* DittoTests */ = {
+			isa = PBXGroup;
+			children = (
+				55BB83911679253F00E45296 /* DittoTests.h */,
+				55BB83921679253F00E45296 /* DittoTests.m */,
+				55BB838C1679253F00E45296 /* Supporting Files */,
+			);
+			path = DittoTests;
+			sourceTree = "<group>";
+		};
+		55BB838C1679253F00E45296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55BB838D1679253F00E45296 /* DittoTests-Info.plist */,
+				55BB838E1679253F00E45296 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BB83591679253F00E45296 /* Ditto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BB83961679253F00E45296 /* Build configuration list for PBXNativeTarget "Ditto" */;
+			buildPhases = (
+				55BB83561679253F00E45296 /* Sources */,
+				55BB83571679253F00E45296 /* Frameworks */,
+				55BB83581679253F00E45296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ditto;
+			productName = Ditto;
+			productReference = 55BB835A1679253F00E45296 /* Ditto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55BB83831679253F00E45296 /* DittoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BB83991679253F00E45296 /* Build configuration list for PBXNativeTarget "DittoTests" */;
+			buildPhases = (
+				55BB837F1679253F00E45296 /* Sources */,
+				55BB83801679253F00E45296 /* Frameworks */,
+				55BB83811679253F00E45296 /* Resources */,
+				55BB83821679253F00E45296 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BB838A1679253F00E45296 /* PBXTargetDependency */,
+			);
+			name = DittoTests;
+			productName = DittoTests;
+			productReference = 55BB83841679253F00E45296 /* DittoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BB83511679253F00E45296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Felipe Nunes Vieira";
+			};
+			buildConfigurationList = 55BB83541679253F00E45296 /* Build configuration list for PBXProject "Ditto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55BB834F1679253F00E45296;
+			productRefGroup = 55BB835B1679253F00E45296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BB83591679253F00E45296 /* Ditto */,
+				55BB83831679253F00E45296 /* DittoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55BB83581679253F00E45296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB83691679253F00E45296 /* InfoPlist.strings in Resources */,
+				55BB83711679253F00E45296 /* Default.png in Resources */,
+				55BB83731679253F00E45296 /* Default@2x.png in Resources */,
+				55BB83751679253F00E45296 /* Default-568h@2x.png in Resources */,
+				55BB83781679253F00E45296 /* MainStoryboard_iPhone.storyboard in Resources */,
+				55BB837B1679253F00E45296 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BB83811679253F00E45296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB83901679253F00E45296 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55BB83821679253F00E45296 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BB83561679253F00E45296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB836B1679253F00E45296 /* main.m in Sources */,
+				55BB836F1679253F00E45296 /* AppDelegate.m in Sources */,
+				55BB837E1679253F00E45296 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BB837F1679253F00E45296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BB83931679253F00E45296 /* DittoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BB838A1679253F00E45296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55BB83591679253F00E45296 /* Ditto */;
+			targetProxy = 55BB83891679253F00E45296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55BB83671679253F00E45296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB83681679253F00E45296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB83771679253F00E45296 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB837A1679253F00E45296 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		55BB838E1679253F00E45296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB838F1679253F00E45296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55BB83941679253F00E45296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55BB83951679253F00E45296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55BB83971679253F00E45296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55BB83981679253F00E45296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55BB839A1679253F00E45296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "DittoTests/DittoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55BB839B1679253F00E45296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
+				INFOPLIST_FILE = "DittoTests/DittoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BB83541679253F00E45296 /* Build configuration list for PBXProject "Ditto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BB83941679253F00E45296 /* Debug */,
+				55BB83951679253F00E45296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BB83961679253F00E45296 /* Build configuration list for PBXNativeTarget "Ditto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BB83971679253F00E45296 /* Debug */,
+				55BB83981679253F00E45296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BB83991679253F00E45296 /* Build configuration list for PBXNativeTarget "DittoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BB839A1679253F00E45296 /* Debug */,
+				55BB839B1679253F00E45296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55BB83511679253F00E45296 /* Project object */;
+}
