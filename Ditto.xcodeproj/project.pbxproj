@@ -24,6 +24,7 @@
 		55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B21679271400E45296 /* Default-568h@2x.png */; };
 		55BB83B61679271400E45296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B31679271400E45296 /* Default.png */; };
 		55BB83B71679271400E45296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B41679271400E45296 /* Default@2x.png */; };
+		EDE26471B0774EA995E6DA7B /* libPods-DittoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF3674BCEA84F1C83EB3AE0 /* libPods-DittoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DF3674BCEA84F1C83EB3AE0 /* libPods-DittoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DittoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB835A1679253F00E45296 /* Ditto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB835E1679253F00E45296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55BB83601679253F00E45296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,7 +54,6 @@
 		55BB83851679253F00E45296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		55BB838D1679253F00E45296 /* DittoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DittoTests-Info.plist"; sourceTree = "<group>"; };
 		55BB838F1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55BB83911679253F00E45296 /* DittoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DittoTests.h; sourceTree = "<group>"; };
 		55BB83921679253F00E45296 /* DittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoTests.m; sourceTree = "<group>"; };
 		55BB83A6167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BB83A8167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		55BB83B21679271400E45296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		55BB83B31679271400E45296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		55BB83B41679271400E45296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9A230044C13442BD8A5A2B88 /* Pods-DittoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoTests.xcconfig"; path = "Pods/Pods-DittoTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				55BB83861679253F00E45296 /* SenTestingKit.framework in Frameworks */,
 				55BB83871679253F00E45296 /* UIKit.framework in Frameworks */,
 				55BB83881679253F00E45296 /* Foundation.framework in Frameworks */,
+				EDE26471B0774EA995E6DA7B /* libPods-DittoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 				55BB838B1679253F00E45296 /* DittoTests */,
 				55BB835D1679253F00E45296 /* Frameworks */,
 				55BB835B1679253F00E45296 /* Products */,
+				9A230044C13442BD8A5A2B88 /* Pods-DittoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +116,7 @@
 				55BB83601679253F00E45296 /* Foundation.framework */,
 				55BB83621679253F00E45296 /* CoreGraphics.framework */,
 				55BB83851679253F00E45296 /* SenTestingKit.framework */,
+				3DF3674BCEA84F1C83EB3AE0 /* libPods-DittoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,7 +147,6 @@
 		55BB838B1679253F00E45296 /* DittoTests */ = {
 			isa = PBXGroup;
 			children = (
-				55BB83911679253F00E45296 /* DittoTests.h */,
 				55BB83921679253F00E45296 /* DittoTests.m */,
 				55BB838C1679253F00E45296 /* Supporting Files */,
 			);
@@ -207,6 +211,7 @@
 				55BB83801679253F00E45296 /* Frameworks */,
 				55BB83811679253F00E45296 /* Resources */,
 				55BB83821679253F00E45296 /* ShellScript */,
+				932C8765DD534F16BF0FCAFF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +287,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		932C8765DD534F16BF0FCAFF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DittoTests-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -404,6 +423,7 @@
 		55BB83971679253F00E45296 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
 				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
@@ -415,6 +435,7 @@
 		55BB83981679253F00E45296 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
 				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
@@ -425,11 +446,13 @@
 		};
 		55BB839A1679253F00E45296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A230044C13442BD8A5A2B88 /* Pods-DittoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
@@ -442,11 +465,13 @@
 		};
 		55BB839B1679253F00E45296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A230044C13442BD8A5A2B88 /* Pods-DittoTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ditto.app/Ditto";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";

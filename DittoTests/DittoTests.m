@@ -6,27 +6,24 @@
 //  Copyright (c) 2012 Felipe Nunes Vieira. All rights reserved.
 //
 
-#import "DittoTests.h"
+#import "Kiwi.h"
 
-@implementation DittoTests
+SPEC_BEGIN(DittoSpec)
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
+context(@"Connect accounts", ^{
+    pending(@"connect google reader account", ^{
+    });
+});
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+context(@"Sync subscriptions", ^{
+    pending(@"download google reader subscriptions", ^{
+    });
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in DittoTests");
-}
+    pending(@"download my favorite articles", ^{
+    });
 
-@end
+    pending(@"save articles", ^{
+    });
+});
+
+SPEC_END
