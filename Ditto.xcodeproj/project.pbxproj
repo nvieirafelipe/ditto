@@ -10,20 +10,20 @@
 		55BB835F1679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83611679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83621679253F00E45296 /* CoreGraphics.framework */; };
-		55BB83691679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83671679253F00E45296 /* InfoPlist.strings */; };
 		55BB836B1679253F00E45296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836A1679253F00E45296 /* main.m */; };
 		55BB836F1679253F00E45296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836E1679253F00E45296 /* AppDelegate.m */; };
-		55BB83711679253F00E45296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83701679253F00E45296 /* Default.png */; };
-		55BB83731679253F00E45296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83721679253F00E45296 /* Default@2x.png */; };
-		55BB83751679253F00E45296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83741679253F00E45296 /* Default-568h@2x.png */; };
-		55BB83781679253F00E45296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */; };
-		55BB837B1679253F00E45296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */; };
 		55BB837E1679253F00E45296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB837D1679253F00E45296 /* ViewController.m */; };
 		55BB83861679253F00E45296 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83851679253F00E45296 /* SenTestingKit.framework */; };
 		55BB83871679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83881679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83901679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB838E1679253F00E45296 /* InfoPlist.strings */; };
 		55BB83931679253F00E45296 /* DittoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB83921679253F00E45296 /* DittoTests.m */; };
+		55BB83AE167926E900E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A5167926E900E45296 /* InfoPlist.strings */; };
+		55BB83AF167926E900E45296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */; };
+		55BB83B0167926E900E45296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */; };
+		55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B21679271400E45296 /* Default-568h@2x.png */; };
+		55BB83B61679271400E45296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B31679271400E45296 /* Default.png */; };
+		55BB83B71679271400E45296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B41679271400E45296 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +42,10 @@
 		55BB83601679253F00E45296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55BB83621679253F00E45296 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55BB83661679253F00E45296 /* Ditto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ditto-Info.plist"; sourceTree = "<group>"; };
-		55BB83681679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BB836A1679253F00E45296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55BB836C1679253F00E45296 /* Ditto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ditto-Prefix.pch"; sourceTree = "<group>"; };
 		55BB836D1679253F00E45296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55BB836E1679253F00E45296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55BB83701679253F00E45296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		55BB83721679253F00E45296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		55BB83741679253F00E45296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		55BB83771679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		55BB837A1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		55BB837C1679253F00E45296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		55BB837D1679253F00E45296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55BB83841679253F00E45296 /* DittoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +54,12 @@
 		55BB838F1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BB83911679253F00E45296 /* DittoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DittoTests.h; sourceTree = "<group>"; };
 		55BB83921679253F00E45296 /* DittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoTests.m; sourceTree = "<group>"; };
+		55BB83A6167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55BB83A8167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		55BB83AA167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		55BB83B21679271400E45296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55BB83B31679271400E45296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		55BB83B41679271400E45296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +121,9 @@
 			children = (
 				55BB836D1679253F00E45296 /* AppDelegate.h */,
 				55BB836E1679253F00E45296 /* AppDelegate.m */,
-				55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */,
-				55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */,
 				55BB837C1679253F00E45296 /* ViewController.h */,
 				55BB837D1679253F00E45296 /* ViewController.m */,
+				55BB83A1167926E900E45296 /* Resources */,
 				55BB83651679253F00E45296 /* Supporting Files */,
 			);
 			path = Ditto;
@@ -134,12 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				55BB83661679253F00E45296 /* Ditto-Info.plist */,
-				55BB83671679253F00E45296 /* InfoPlist.strings */,
 				55BB836A1679253F00E45296 /* main.m */,
 				55BB836C1679253F00E45296 /* Ditto-Prefix.pch */,
-				55BB83701679253F00E45296 /* Default.png */,
-				55BB83721679253F00E45296 /* Default@2x.png */,
-				55BB83741679253F00E45296 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +156,27 @@
 				55BB838E1679253F00E45296 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55BB83A1167926E900E45296 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55BB83B11679271400E45296 /* Images */,
+				55BB83A5167926E900E45296 /* InfoPlist.strings */,
+				55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */,
+				55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55BB83B11679271400E45296 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55BB83B21679271400E45296 /* Default-568h@2x.png */,
+				55BB83B31679271400E45296 /* Default.png */,
+				55BB83B41679271400E45296 /* Default@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55BB83691679253F00E45296 /* InfoPlist.strings in Resources */,
-				55BB83711679253F00E45296 /* Default.png in Resources */,
-				55BB83731679253F00E45296 /* Default@2x.png in Resources */,
-				55BB83751679253F00E45296 /* Default-568h@2x.png in Resources */,
-				55BB83781679253F00E45296 /* MainStoryboard_iPhone.storyboard in Resources */,
-				55BB837B1679253F00E45296 /* MainStoryboard_iPad.storyboard in Resources */,
+				55BB83AE167926E900E45296 /* InfoPlist.strings in Resources */,
+				55BB83AF167926E900E45296 /* MainStoryboard_iPad.storyboard in Resources */,
+				55BB83B0167926E900E45296 /* MainStoryboard_iPhone.storyboard in Resources */,
+				55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */,
+				55BB83B61679271400E45296 /* Default.png in Resources */,
+				55BB83B71679271400E45296 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,36 +315,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		55BB83671679253F00E45296 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BB83681679253F00E45296 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		55BB83761679253F00E45296 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BB83771679253F00E45296 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		55BB83791679253F00E45296 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BB837A1679253F00E45296 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		55BB838E1679253F00E45296 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				55BB838F1679253F00E45296 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55BB83A5167926E900E45296 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB83A6167926E900E45296 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB83A8167926E900E45296 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55BB83AA167926E900E45296 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
