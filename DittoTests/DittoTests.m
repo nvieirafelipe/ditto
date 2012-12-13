@@ -10,20 +10,48 @@
 
 SPEC_BEGIN(DittoSpec)
 
-context(@"Connect accounts", ^{
+describe(@"Connect accounts", ^{
     pending(@"connect google reader account", ^{
+//        v0.1
     });
 });
 
-context(@"Sync subscriptions", ^{
-    pending(@"download google reader subscriptions", ^{
+describe(@"Sync subscriptions", ^{
+    pending(@"download subscriptions", ^{
+//        v0.1
     });
 
-    pending(@"download my favorite articles", ^{
+    pending(@"download my favorite articles", ^{});
+
+    pending(@"save articles", ^{});
+
+    pending(@"upload readed articles", ^{});
+
+    pending(@"delete readed articles", ^{});
+});
+
+describe(@"Read article", ^{
+    pending(@"display subscriptions grouped by folder", ^{
+//        v0.1
     });
 
-    pending(@"save articles", ^{
+    pending(@"read an article", ^{
+//        v0.1
     });
+
+    pending(@"mark as read", ^{});
+
+    pending(@"mark as favorite", ^{});
+
+    pending(@"save article images", ^{});
+});
+
+describe(@"Share article", ^{
+    pending(@"send mail", ^{});
+
+    pending(@"publish on facebook timeline", ^{});
+
+    pending(@"post on twitter timeline", ^{});
 });
 
 SPEC_END
