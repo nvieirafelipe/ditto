@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5566794816CC715A009DBF22 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5566794716CC715A009DBF22 /* Podfile */; };
 		55BB835F1679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83611679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83621679253F00E45296 /* CoreGraphics.framework */; };
@@ -17,7 +18,6 @@
 		55BB83871679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83881679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83901679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB838E1679253F00E45296 /* InfoPlist.strings */; };
-		55BB83931679253F00E45296 /* DittoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB83921679253F00E45296 /* DittoTests.m */; };
 		55BB83AE167926E900E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A5167926E900E45296 /* InfoPlist.strings */; };
 		55BB83AF167926E900E45296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */; };
 		55BB83B0167926E900E45296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */; };
@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3DF3674BCEA84F1C83EB3AE0 /* libPods-DittoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DittoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5566794716CC715A009DBF22 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		55BB835A1679253F00E45296 /* Ditto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB835E1679253F00E45296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55BB83601679253F00E45296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		55BB83851679253F00E45296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		55BB838D1679253F00E45296 /* DittoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DittoTests-Info.plist"; sourceTree = "<group>"; };
 		55BB838F1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55BB83921679253F00E45296 /* DittoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DittoTests.m; sourceTree = "<group>"; };
 		55BB83A6167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BB83A8167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		55BB83AA167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 				55BB838B1679253F00E45296 /* DittoTests */,
 				55BB835D1679253F00E45296 /* Frameworks */,
 				55BB835B1679253F00E45296 /* Products */,
+				5566794716CC715A009DBF22 /* Podfile */,
 				9A230044C13442BD8A5A2B88 /* Pods-DittoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -147,7 +148,6 @@
 		55BB838B1679253F00E45296 /* DittoTests */ = {
 			isa = PBXGroup;
 			children = (
-				55BB83921679253F00E45296 /* DittoTests.m */,
 				55BB838C1679253F00E45296 /* Supporting Files */,
 			);
 			path = DittoTests;
@@ -261,6 +261,7 @@
 				55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */,
 				55BB83B61679271400E45296 /* Default.png in Resources */,
 				55BB83B71679271400E45296 /* Default@2x.png in Resources */,
+				5566794816CC715A009DBF22 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55BB83931679253F00E45296 /* DittoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
