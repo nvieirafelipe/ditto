@@ -13,14 +13,11 @@
 		55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83621679253F00E45296 /* CoreGraphics.framework */; };
 		55BB836B1679253F00E45296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836A1679253F00E45296 /* main.m */; };
 		55BB836F1679253F00E45296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB836E1679253F00E45296 /* AppDelegate.m */; };
-		55BB837E1679253F00E45296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BB837D1679253F00E45296 /* ViewController.m */; };
 		55BB83861679253F00E45296 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83851679253F00E45296 /* SenTestingKit.framework */; };
 		55BB83871679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83881679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83901679253F00E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB838E1679253F00E45296 /* InfoPlist.strings */; };
 		55BB83AE167926E900E45296 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A5167926E900E45296 /* InfoPlist.strings */; };
-		55BB83AF167926E900E45296 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */; };
-		55BB83B0167926E900E45296 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */; };
 		55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B21679271400E45296 /* Default-568h@2x.png */; };
 		55BB83B61679271400E45296 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B31679271400E45296 /* Default.png */; };
 		55BB83B71679271400E45296 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55BB83B41679271400E45296 /* Default@2x.png */; };
@@ -49,15 +46,11 @@
 		55BB836C1679253F00E45296 /* Ditto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ditto-Prefix.pch"; sourceTree = "<group>"; };
 		55BB836D1679253F00E45296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55BB836E1679253F00E45296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55BB837C1679253F00E45296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55BB837D1679253F00E45296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55BB83841679253F00E45296 /* DittoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB83851679253F00E45296 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		55BB838D1679253F00E45296 /* DittoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DittoTests-Info.plist"; sourceTree = "<group>"; };
 		55BB838F1679253F00E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55BB83A6167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55BB83A8167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		55BB83AA167926E900E45296 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		55BB83B21679271400E45296 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		55BB83B31679271400E45296 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		55BB83B41679271400E45296 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -127,8 +120,6 @@
 			children = (
 				55BB836D1679253F00E45296 /* AppDelegate.h */,
 				55BB836E1679253F00E45296 /* AppDelegate.m */,
-				55BB837C1679253F00E45296 /* ViewController.h */,
-				55BB837D1679253F00E45296 /* ViewController.m */,
 				55BB83A1167926E900E45296 /* Resources */,
 				55BB83651679253F00E45296 /* Supporting Files */,
 			);
@@ -167,8 +158,6 @@
 			children = (
 				55BB83B11679271400E45296 /* Images */,
 				55BB83A5167926E900E45296 /* InfoPlist.strings */,
-				55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */,
-				55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -256,8 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BB83AE167926E900E45296 /* InfoPlist.strings in Resources */,
-				55BB83AF167926E900E45296 /* MainStoryboard_iPad.storyboard in Resources */,
-				55BB83B0167926E900E45296 /* MainStoryboard_iPhone.storyboard in Resources */,
 				55BB83B51679271400E45296 /* Default-568h@2x.png in Resources */,
 				55BB83B61679271400E45296 /* Default.png in Resources */,
 				55BB83B71679271400E45296 /* Default@2x.png in Resources */,
@@ -312,7 +299,6 @@
 			files = (
 				55BB836B1679253F00E45296 /* main.m in Sources */,
 				55BB836F1679253F00E45296 /* AppDelegate.m in Sources */,
-				55BB837E1679253F00E45296 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,22 +334,6 @@
 				55BB83A6167926E900E45296 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		55BB83A7167926E900E45296 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BB83A8167926E900E45296 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		55BB83A9167926E900E45296 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55BB83AA167926E900E45296 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +398,7 @@
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
 				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -440,6 +411,7 @@
 				GCC_PREFIX_HEADER = "Ditto/Ditto-Prefix.pch";
 				INFOPLIST_FILE = "Ditto/Ditto-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
