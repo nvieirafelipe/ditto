@@ -10,7 +10,6 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (weak, nonatomic) IBOutlet UIWindow *window;
 @property (weak, nonatomic) IBOutlet UINavigationController *navigationController;
 
 @end

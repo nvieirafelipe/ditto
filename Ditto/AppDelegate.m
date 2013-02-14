@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#if RUN_KIF_TESTS
+#import "EXTestController.h"
+#endif
 
 @implementation AppDelegate
 
@@ -38,6 +41,12 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+#if RUN_KIF_TESTS
+    [[EXTestController sharedInstance] startTestingWithCompletionBlock:^{
+        // Exit after the tests complete so that CI knows we're done
+        exit([[EXTestController sharedInstance] failureCount]);
+    }];
+#endif
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
