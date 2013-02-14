@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5566794816CC715A009DBF22 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5566794716CC715A009DBF22 /* Podfile */; };
+		5566795616CC736C009DBF22 /* Ditto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5566795516CC736C009DBF22 /* Ditto.xib */; };
+		5566795B16CC74E3009DBF22 /* ReadingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5566795916CC74E3009DBF22 /* ReadingListViewController.m */; };
+		5566795C16CC74E3009DBF22 /* ReadingListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5566795A16CC74E3009DBF22 /* ReadingListViewController.xib */; };
 		55BB835F1679253F00E45296 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB835E1679253F00E45296 /* UIKit.framework */; };
 		55BB83611679253F00E45296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83601679253F00E45296 /* Foundation.framework */; };
 		55BB83631679253F00E45296 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BB83621679253F00E45296 /* CoreGraphics.framework */; };
@@ -37,6 +40,10 @@
 /* Begin PBXFileReference section */
 		3DF3674BCEA84F1C83EB3AE0 /* libPods-DittoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DittoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5566794716CC715A009DBF22 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5566795516CC736C009DBF22 /* Ditto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Ditto.xib; sourceTree = "<group>"; };
+		5566795816CC74E3009DBF22 /* ReadingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListViewController.h; sourceTree = "<group>"; };
+		5566795916CC74E3009DBF22 /* ReadingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingListViewController.m; sourceTree = "<group>"; };
+		5566795A16CC74E3009DBF22 /* ReadingListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingListViewController.xib; sourceTree = "<group>"; };
 		55BB835A1679253F00E45296 /* Ditto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BB835E1679253F00E45296 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55BB83601679253F00E45296 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5566795716CC7499009DBF22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5566795816CC74E3009DBF22 /* ReadingListViewController.h */,
+				5566795916CC74E3009DBF22 /* ReadingListViewController.m */,
+				5566795A16CC74E3009DBF22 /* ReadingListViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		55BB834F1679253F00E45296 = {
 			isa = PBXGroup;
 			children = (
@@ -118,10 +135,12 @@
 		55BB83641679253F00E45296 /* Ditto */ = {
 			isa = PBXGroup;
 			children = (
-				55BB836D1679253F00E45296 /* AppDelegate.h */,
-				55BB836E1679253F00E45296 /* AppDelegate.m */,
+				5566795716CC7499009DBF22 /* Controllers */,
 				55BB83A1167926E900E45296 /* Resources */,
 				55BB83651679253F00E45296 /* Supporting Files */,
+				55BB836D1679253F00E45296 /* AppDelegate.h */,
+				55BB836E1679253F00E45296 /* AppDelegate.m */,
+				5566795516CC736C009DBF22 /* Ditto.xib */,
 			);
 			path = Ditto;
 			sourceTree = "<group>";
@@ -249,6 +268,8 @@
 				55BB83B61679271400E45296 /* Default.png in Resources */,
 				55BB83B71679271400E45296 /* Default@2x.png in Resources */,
 				5566794816CC715A009DBF22 /* Podfile in Resources */,
+				5566795616CC736C009DBF22 /* Ditto.xib in Resources */,
+				5566795C16CC74E3009DBF22 /* ReadingListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +320,7 @@
 			files = (
 				55BB836B1679253F00E45296 /* main.m in Sources */,
 				55BB836F1679253F00E45296 /* AppDelegate.m in Sources */,
+				5566795B16CC74E3009DBF22 /* ReadingListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
