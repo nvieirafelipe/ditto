@@ -3,7 +3,7 @@ PODS:
 - Kiwi (2.0.4)
 
 DEPENDENCIES:
-- Kiwi
+- Kiwi (~> 2.0.4)
 
 SPEC CHECKSUMS:
   Kiwi: 44abe10fc11eb6a9e05d580211abd1f8fdb01260
